@@ -1,0 +1,13 @@
+cloudbees-folder:6.0.2
+antisamy-markup-formatter:1.5
+matrix-auth:1.4
+build-timeout:1.18
+credentials-binding:1.10
+timestamper:1.8.8
+ws-cleanup:0.32
+pipeline-stage-view:2.6
+workflow-aggregator:2.5
+git:3.1.0
+github:1.26.1
+github-organization-folder:1.6
+ssh-slaves:1.13
