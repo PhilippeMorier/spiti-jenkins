@@ -1,0 +1,46 @@
+# OS specific
+.DS_Store
+
+# IDE specific
+.idea
+*~
+
+# Miscellaneous Hudson litter
+*.log
+gc-*.log.*
+*.tmp
+*.old
+*.bak
+*.jar
+*.json
+
+# Build files copied/created as part of a build
+build/
+
+# Generated Hudson state
+jenkins_home/.bash_history
+jenkins_home/.owner
+jenkins_home/secret.key
+jenkins_home/queue.xml
+jenkins_home/fingerprints/
+jenkins_home/shelvedProjects/
+jenkins_home/updates/
+jenkins_home/logs/
+jenkins_home/.java/
+jenkins_home/org.jenkinsci.plugins.github.GitHubPlugin.cache
+jenkins_home/war/
+jenkins_home/support/
+jenkins_home/slow-requests/
+
+# Tools that Hudson manages
+jenkins_home/tools/
+
+# Extracted plugins
+jenkins_home/plugins
+
+# Job state
+builds/
+workspace/
+lastStable
+lastSuccessful
+nextBuildNumber
