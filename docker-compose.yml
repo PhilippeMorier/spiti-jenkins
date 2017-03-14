@@ -7,4 +7,4 @@ services:
       - ./jenkins_home:/var/jenkins_home
     ports:
       - "8910:8910"
-    container_name: "spiti-jenkins_latest"
+    container_name: "spiti-jenkins"
