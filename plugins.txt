@@ -11,3 +11,4 @@ git:3.1.0
 github:1.26.1
 github-organization-folder:1.6
 ssh-slaves:1.13
+docker-workflow:1.10
