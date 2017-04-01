@@ -12,3 +12,4 @@ github:1.26.1
 github-organization-folder:1.6
 ssh-slaves:1.13
 docker-workflow:1.10
+ansicolor:0.5.0

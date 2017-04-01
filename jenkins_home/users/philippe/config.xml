@@ -31,8 +31,14 @@
     <hudson.security.HudsonPrivateSecurityRealm_-Details>
       <passwordHash>#jbcrypt:$2a$10$u9cmoWKq2AZM3SwqOuPSwuCp8zOza36KUsy.ZpKfGvgEPq4uV1U1C</passwordHash>
     </hudson.security.HudsonPrivateSecurityRealm_-Details>
-    <hudson.tasks.Mailer_-UserProperty plugin="mailer@1.19">
+    <hudson.tasks.Mailer_-UserProperty plugin="mailer@1.20">
       <emailAddress>morier.dev@outlook.com</emailAddress>
     </hudson.tasks.Mailer_-UserProperty>
+    <jenkins.security.LastGrantedAuthoritiesProperty>
+      <roles>
+        <string>authenticated</string>
+      </roles>
+      <timestamp>1489529095006</timestamp>
+    </jenkins.security.LastGrantedAuthoritiesProperty>
   </properties>
 </user>
