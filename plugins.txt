@@ -8,8 +8,9 @@ ws-cleanup:0.32
 pipeline-stage-view:2.6
 workflow-aggregator:2.5
 git:3.1.0
-github:1.26.1
+github:1.26.2
 github-organization-folder:1.6
 ssh-slaves:1.13
 docker-workflow:1.10
 ansicolor:0.5.0
+slack:2.2
