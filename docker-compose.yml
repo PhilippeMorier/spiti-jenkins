@@ -5,6 +5,7 @@ services:
     image: spiti-jenkins:latest
     volumes:
       - ./jenkins_home:/var/jenkins_home
+      - ~/.ssh:/root/.ssh
       - /var/run/docker.sock:/var/run/docker.sock
     ports:
       - "8910:8910"
