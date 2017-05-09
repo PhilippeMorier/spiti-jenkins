@@ -20,7 +20,7 @@ USER root
 RUN apt-get -y update \
     && apt-get -y install apt-transport-https curl \
     && curl -fsSL https://download.docker.com/linux/debian/gpg | apt-key add - \
-    && echo "deb [arch=amd64] https://download.docker.com/linux/debian wheezy stable" > /etc/apt/sources.list.d/docker.list
+    && echo 'deb [arch=amd64] https://download.docker.com/linux/debian wheezy stable' > /etc/apt/sources.list.d/docker.list
 
 RUN apt-get -y update \
     && apt-cache madison docker-ce \
@@ -32,6 +32,9 @@ RUN apt-get -y update \
 #    && ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
 
 RUN mkdir -p /root/.ssh
+
+RUN git config --global user.name 'jenkins' \
+    && git config --global user.email 'morier.dev@outlook.com'
 #RUN mkdir -p /home/jenkins/.ssh
 #COPY id_rsa /home/jenkins/.ssh/id_rsa
 #RUN chmod 400 /home/jenkins/.ssh/id_rsa
