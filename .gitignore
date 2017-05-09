@@ -3,13 +3,16 @@
 
 # IDE specific
 .idea
-*~
 
 # Jenkins
-/jenkins_home/*
-/jenkins_home/jobs/**
+!jenkins_home/
 
-!/jenkins_home/jobs
-!/jenkins_home/*.xml
-!/jenkins_home/jobs/**/
-!/jenkins_home/config.xml
+jenkins_home/*
+!jenkins_home/jobs/
+!jenkins_home/*.xml
+
+jenkins_home/jobs/*
+!jenkins_home/jobs/*/
+
+jenkins_home/jobs/*/*
+!jenkins_home/jobs/*/config.xml
