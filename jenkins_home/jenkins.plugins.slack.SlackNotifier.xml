@@ -4,6 +4,6 @@
   <teamDomain>spiti-labs</teamDomain>
   <token></token>
   <tokenCredentialId></tokenCredentialId>
-  <botUser>true</botUser>
+  <botUser>false</botUser>
   <room></room>
 </jenkins.plugins.slack.SlackNotifier_-DescriptorImpl>
